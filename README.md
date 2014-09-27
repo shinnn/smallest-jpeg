@@ -3,7 +3,7 @@
 [![NPM version](https://badge.fury.io/js/smallest-jpeg.svg)](https://www.npmjs.org/package/smallest-jpeg)
 [![Build Status](https://travis-ci.org/shinnn/node-smallest-jpeg.svg?branch=master)](https://travis-ci.org/shinnn/node-smallest-jpeg)
 [![Build status](https://ci.appveyor.com/api/projects/status/9v34s8a298q9hipi)](https://ci.appveyor.com/project/ShinnosukeWatanabe/node-smallest-jpeg)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/smallest-jpeg.svg)](https://coveralls.io/r/shinnn/node-smallest-jpeg)
+[![Coverage Status](https://img.shields.io/coveralls/shinnn/node-smallest-jpeg.svg)](https://coveralls.io/r/shinnn/node-smallest-jpeg)
 [![devDependency Status](https://david-dm.org/shinnn/node-smallest-jpeg/dev-status.svg)](https://david-dm.org/shinnn/smallest-jpeg#info=devDependencies)
 
 A [Node](http://nodejs.org/) module to create a buffer of [theoretically smallest JPEG](https://github.com/mathiasbynens/small/blob/master/jpeg.jpg)
