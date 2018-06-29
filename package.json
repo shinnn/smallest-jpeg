@@ -1,6 +1,6 @@
 {
 	"name": "smallest-jpeg",
-	"version": "1.0.1",
+	"version": "2.0.0-0",
 	"description": "Create a Buffer of the theoretically smallest JPEG",
 	"repository": "shinnn/smallest-jpeg",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
