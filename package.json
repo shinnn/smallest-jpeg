@@ -1,43 +1,38 @@
 {
-  "name": "smallest-jpeg",
-  "version": "1.0.0",
-  "description": "Create a buffer of smallest JPEG",
-  "repository": "shinnn/node-smallest-jpeg",
-  "author": {
-    "name": "Shinnosuke Watanabe",
-    "url": "https://github.com/shinnn"
-  },
-  "scripts": {
-    "pretest": "eslint *.js test/test.js & jscs *.js test/test.js",
-    "test": "node test/test.js",
-    "coverage": "istanbul cover test/test.js",
-    "coveralls": "${npm_package_scripts_coverage} && istanbul-coveralls"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/shinnn/node-smallest-jpeg/blob/master/LICENSE"
-    }
-  ],
-  "files": [
-    "index.js",
-    "LICENSE"
-  ],
-  "keywords": [
-    "buffer",
-    "img",
-    "image",
-    "small",
-    "smallest",
-    "jpg",
-    "jpeg"
-  ],
-  "devDependencies": {
-    "eslint": "^0.8.2",
-    "istanbul": "^0.3.2",
-    "istanbul-coveralls": "^1.0.0",
-    "jscs": "^1.6.2",
-    "require-main": "^0.1.1",
-    "tape": "^3.0.0"
-  }
+	"name": "smallest-jpeg",
+	"version": "1.0.0",
+	"description": "Create a Buffer of the theoretically smallest JPEG",
+	"repository": "shinnn/smallest-jpeg",
+	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"license": "ISC",
+	"scripts": {
+		"pretest": "eslint --fix --format=codeframe .",
+		"test": "node test.js"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"buffer",
+		"img",
+		"image",
+		"jpg",
+		"jpeg",
+		"fixture",
+		"minimum",
+		"small",
+		"smallest"
+	],
+	"devDependencies": {
+		"@shinnn/eslint-config-node": "^5.0.0",
+		"eslint": "^5.0.1",
+		"tape": "^4.9.1"
+	},
+	"eslintConfig": {
+		"extends": "@shinnn/node",
+		"rules": {
+			"no-buffer-constructor": "off",
+			"node/no-deprecated-api": "off"
+		}
+	}
 }
