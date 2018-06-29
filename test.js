@@ -18,7 +18,7 @@ test('smallestJpeg()', async t => {
 		}
 
 		t.ok(
-			smallestJpeg().equals(Buffer.concat(expected, len)),
+			smallestJpeg.equals(Buffer.concat(expected, len)),
 			'should create a Buffer of the theoretically smallest JPEG.'
 		);
 	});

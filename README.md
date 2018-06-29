@@ -3,19 +3,19 @@
 [![npm version](https://img.shields.io/npm/v/smallest-jpeg.svg)](https://www.npmjs.com/package/smallest-jpeg)
 [![Build Status](https://travis-ci.org/shinnn/smallest-jpeg.svg?branch=master)](https://travis-ci.org/shinnn/smallest-jpeg)
 
-Create a `Buffer` of [the theoretically smallest JPEG](https://github.com/mathiasbynens/small/blob/master/jpeg.jpg)
+A `Buffer` of [the theoretically smallest JPEG](https://github.com/mathiasbynens/small/blob/master/jpeg.jpg)
 
 ```javascript
 const smallestJpeg = require('smallest-jpeg');
+//=> <Buffer ff d8 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 ...>
 
-const buf = smallestJpeg(); //=> <Buffer ff d8 ff db 00 43 00 03 02 02 02 02 02 03 02 02 02 03 ...>
-buf.length; //=> 107
+smallestJpeg.length; //=> 107
 ```
 
 Suitable for test fixtures.
 
 ```javascript
-const {width, height} = someJpegParserFunc(smallestJpeg());
+const {width, height} = someJpegParserFunction(smallestJpeg);
 
 console.assert(width === 1);
 console.assert(height === 1);
@@ -35,9 +35,9 @@ npm install smallest-jpeg
 const smallestJpeg = require('smallest-jpeg');
 ```
 
-### smallestJpeg()
+### smallestJpeg
 
-Return: [`Buffer`](https://nodejs.org/api/buffer.html#buffer_class_buffer)
+Type: [`Buffer`](https://nodejs.org/api/buffer.html#buffer_class_buffer)
 
 ## License
 
