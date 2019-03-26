@@ -4,7 +4,7 @@
 	"description": "A `Buffer` of the theoretically smallest JPEG",
 	"repository": "shinnn/smallest-jpeg",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
-	"license": "ISC",
+	"license": "MIT-0",
 	"scripts": {
 		"pretest": "eslint --fix --format=codeframe .",
 		"test": "node test.js"

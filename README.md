@@ -45,4 +45,4 @@ Type: [`Buffer`](https://nodejs.org/api/buffer.html#buffer_class_buffer)
 
 ## License
 
-[ISC License](./LICENSE) © 2018 - 2019 Shinnosuke Watanabe
+[MIT No Attribution](./LICENSE) © 2019 Shinnosuke Watanabe
