@@ -2,11 +2,11 @@
 	"name": "smallest-jpeg",
 	"version": "2.0.0",
 	"description": "A `Buffer` of the theoretically smallest JPEG",
-	"repository": "shinnn/smallest-jpeg",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"repository": "shinnn/smallest-jpeg",
 	"license": "MIT-0",
 	"scripts": {
-		"pretest": "eslint --fix --format=codeframe .",
+		"pretest": "eslint .",
 		"test": "node test.js"
 	},
 	"files": [
@@ -24,11 +24,11 @@
 		"smallest"
 	],
 	"devDependencies": {
-		"@shinnn/eslint-config-node": "^5.0.0",
-		"eslint": "^5.0.1",
-		"tape": "^4.9.1"
+		"@shinnn/eslint-config": "^6.10.2",
+		"eslint": "^5.16.0",
+		"tape": "^4.10.1"
 	},
 	"eslintConfig": {
-		"extends": "@shinnn/node"
+		"extends": "@shinnn"
 	}
 }
